@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction:column;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-container {
+    display:flex;
+    background-color: #F55A5A;
+    justify-content:center;
+    align-items:center;
+    height:55px;
+    width:550px;
+    color:white;
+}
+
+.navbar-container > p {
+    margin-left:10px;
+}
+
+
+.card-container {
+display:flex;
+justify-content:center;
+align-items:center;
+margin-left:40px;
+width: 471px;
+padding:20px;
+}
+
+.top-info {
+    display:flex; 
+    align-items:center;
+}
+
+
+.image-container {
+    display:flex;
+    align-items:center; 
+    
+}
+
+.text-container {
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.card-image {
+    width:125px;
+    height:150px;
+    border-radius:5px;
+}
+
+.location {
+
+    font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+text-transform: uppercase;
+}
+
+.gps-icon {
+    margin-right:3px
+}
+
+.google {
+    font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+margin-left:10px
+}
+
+
+.title {
+    margin-top:0.3px;
+font-weight: bolder;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+
+.dates{
+    font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+}
+
+.description {
+    font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
+
+hr {
+    font-weight:bold; 
+}
